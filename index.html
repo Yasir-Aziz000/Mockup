@@ -1,329 +1,591 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <!-- integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Website</title>
-  <link rel="icon" type="image/x-icon" href="yasir-favicon-color (1).png">
-</head>
 
-<body>
-  <div >
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-expand-sm navbar-expand-md navbar-expand-xs">
-      <div class="container-fluid ">
-        <a class="navbar-brand" href="#"><img src="yasir-high-resolution-logo-white-transparent.png" width="80px" height="40px"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-           
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                About Us
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Website</title>
+    <link rel="icon" type="image/x-icon" href="yasir-favicon-color (1).png" />
+  </head>
+
+  <body>
+    <div>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light navbar-expand-sm navbar-expand-md navbar-expand-xs"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="yasir-high-resolution-logo-white-transparent.png"
+              width="80px"
+              height="40px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Signin"
+                  >Sign In</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Signup"
+                  >Sign Up</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About Us
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="main">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12">
+            <div class="main2">
+              <div class="main3">
+                <h1 class="McH">MGC Forum 2023</h1>
+                <p class="mcp">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Laboriosam pariatur iusto, harum doloremque distinctio
+                  sapiente! Culpa incidunt maiores eum ducimus!
+                </p>
+                <h3 class="mch3">Core Value</h3>
+                <p class="mcp2">
+                  <b
+                    >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Recusandae itaque velit adipisci, beatae sit voluptatem
+                    quaerat aspernatur ex expedita perferendis?</b
+                  >
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
+                  vel earum provident quia dolor possimus eligendi culpa
+                  distinctio enim nihil illo quas eum cupiditate quae facere
+                  explicabo nobis, qui sunt sit dolorum veritatis sapiente
+                  impedit alias iste? Officiis debitis, error ipsa sapiente,
+                  tempora beatae, quaerat expedita maxime quidem nihil
+                  voluptatem nulla! Necessitatibus possimus exercitationem fugit
+                  laborum perferendis delectus ad nam, eaque, quidem dolor
+                  consequuntur aspernatur quae, repellat numquam. Veniam
+                  eligendi assumenda cum quas suscipit consectetur, placeat
+                  omnis corporis quod autem.
+                </p>
+                <p class="mcp3">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut
+                  vel consectetur, ea laboriosam qui unde natus rerum debitis
+                  asperiores eos aperiam illum labore autem porro nulla officia
+                  sint nam excepturi similique, officiis doloribus at, atque ab?
+                  Assumenda pariatur a aliquid. Lorem ipsum, dolor sit amet
+                  consectetur adipisicing elit. Quisquam exercitationem facilis
+                  maiores et alias fuga? Repudiandae modi reiciendis commodi,
+                  perspiciatis quia impedit fuga ea autem libero molestiae,
+                  fugiat reprehenderit eligendi laborum dolores ducimus itaque
+                  delectus temporibus laudantium in maiores similique
+                  distinctio? Explicabo magni iusto minima possimus, qui iste
+                  perferendis vel nihil nam animi, dolorum pariatur suscipit
+                  alias totam praesentium obcaecati sunt consequuntur ipsam
+                  maxime accusantium soluta officia eos quod velit. Quisquam,
+                  odit illo alias voluptatem consectetur facilis quod magni
+                  eligendi sit molestiae soluta quis dolorem rerum fugiat
+                  temporibus voluptas. Officiis.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
+      <div class="main1">
+        <div class="row">
+          <div class="col-5 main1a1">
+            <img
+              src="alexandre-pellaes-6vAjp0pscX0-unsplash.jpg"
+              width="100%"
+              height="400px"
+            />
+          </div>
 
-  <div class="main">
-    <div class="row">
-      <div class="col-lg-12 col-sm-12">
-        <div class="main2">
-          <div class="main3 ">
-            <h1 class="McH">MGC Forum 2023</h1>
-            <p class="mcp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur iusto, harum
-              doloremque distinctio sapiente! Culpa incidunt maiores eum ducimus!</p>
-            <h3 class="mch3">Core Value</h3>
-            <p class="mcp2"><b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae itaque velit
-                adipisci, beatae sit voluptatem quaerat aspernatur ex expedita perferendis?</b> Lorem ipsum dolor sit
-              amet consectetur, adipisicing elit. Rem vel earum provident quia dolor possimus eligendi culpa
-              distinctio enim nihil illo quas eum cupiditate quae facere explicabo nobis, qui sunt sit dolorum
-              veritatis sapiente impedit alias iste? Officiis debitis, error ipsa sapiente, tempora beatae, quaerat
-              expedita maxime quidem nihil voluptatem nulla! Necessitatibus possimus exercitationem fugit laborum
-              perferendis delectus ad nam, eaque, quidem dolor consequuntur aspernatur quae, repellat numquam. Veniam
-              eligendi assumenda cum quas suscipit consectetur, placeat omnis corporis quod autem.
+          <div class="main1a2 col-3" id="m2">
+            <h3 calss="main1h1" id="mh1">Possible is everything</h3>
+            <h3 calss="main1h2"><b>Conference 2019</b></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-5 main1ab" id="m4">
+            <p calss=" main1p1">
+              <b
+                >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Facere impedit, sunt quae asperiores atque quo.</b
+              >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, et
+              eaque perferendis sed quibusdam aliquid autem nobis deserunt culpa
+              dolorum temporibus tempora officia ullam vitae placeat molestias
+              expedita impedit est ratione iste quidem, architecto corporis
+              doloremque! Vero dicta recusandae debitis!
             </p>
-            <p class="mcp3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut vel consectetur, ea
-              laboriosam qui unde natus rerum debitis asperiores eos aperiam illum labore autem porro nulla officia
-              sint nam excepturi similique, officiis doloribus at, atque ab? Assumenda pariatur a aliquid. Lorem
-              ipsum, dolor sit amet consectetur adipisicing elit. Quisquam exercitationem facilis maiores et alias
-              fuga? Repudiandae modi reiciendis commodi, perspiciatis quia impedit fuga ea autem libero molestiae,
-              fugiat reprehenderit eligendi laborum dolores ducimus itaque delectus temporibus laudantium in maiores
-              similique distinctio? Explicabo magni iusto minima possimus, qui iste perferendis vel nihil nam animi,
-              dolorum pariatur suscipit alias totam praesentium obcaecati sunt consequuntur ipsam maxime accusantium
-              soluta officia eos quod velit. Quisquam, odit illo alias voluptatem consectetur facilis quod magni
-              eligendi sit molestiae soluta quis dolorem rerum fugiat temporibus voluptas. Officiis.</p>
 
+            <p calss=" main1p2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ad
+              et id quidem, accusamus nesciunt. Ea hic nisi error aliquid
+              facilis voluptatum, reprehenderit eaque dignissimos iure?
+              Perferendis illo est earum! Voluptas ut, quasi maxime officiis
+              odio pariatur labore dolore incidunt?
+            </p>
+          </div>
+          <div class="col-5" id="m3">
+            <img
+              src="alexandre-pellaes-6vAjp0pscX0-unsplash.jpg"
+              width="130%"
+              height="400px"
+            />
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="main1">
-    <div class="row">
-      <div class="col-5  main1a1">
-        <img src="alexandre-pellaes-6vAjp0pscX0-unsplash.jpg" width="100%" height="400px">
-      </div>
+    <div class="graphic">
+      <div class="row">
+        <div class="col">
+          <img src="22.jpg" width="8%" height="100px" class="img-3" alt="" />
 
-      <div class="main1a2 col-3 " id="m2">
-        <h3 calss="main1h1" id="mh1">Possible is everything</h3>
-        <h3 calss="main1h2"><b>Conference 2019</b></h3>
-      </div>
-
-    </div>
-    <div class="row">
-
-
-      <div class="col-5 main1ab" id="m4">
-        <p calss=" main1p1"><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere impedit, sunt quae
-            asperiores atque quo.</b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, et eaque perferendis
-          sed quibusdam aliquid autem nobis deserunt culpa dolorum temporibus tempora officia ullam vitae placeat
-          molestias expedita impedit est ratione iste quidem, architecto corporis doloremque! Vero dicta recusandae
-          debitis!</p>
-
-        <p calss=" main1p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ad et id quidem, accusamus
-          nesciunt. Ea hic nisi error aliquid facilis voluptatum, reprehenderit eaque dignissimos iure? Perferendis illo
-          est earum! Voluptas ut, quasi maxime officiis odio pariatur labore dolore incidunt?</p>
-      </div>
-      <div class="col-5" id="m3">
-        <img src="alexandre-pellaes-6vAjp0pscX0-unsplash.jpg" width="130%" height="400px">
-      </div>
-
-    </div>
-
-  </div>
-
-
-  </div>
-  <div class="graphic">
-    <div class="row">
-      <div class="col">
-        <img src="22.jpg" width="8%" height="100px" class="img-3" alt="">
-
-        <p class="graphicp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iusto nam ut consectetur
-          cumque! Perferendis quae cupiditate labore maiores ex autem odit incidunt illo eius.<span
-            class="graphics">Lorem ipsum dolor sit.</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Odit, culpa!
-        </p>
-        <button class="btn btn-primary graphicbtn text-start">Submit Now<br>Graphic designer</button>
-      </div>
-    </div>
-  </div>
-  <div class="temp1icon">
-    <div class="row">
-      <div class="col">
-        <div class="icon">
-          <i 
-          
-          class='fa-solid fa-message' style='color: blue' ></i>
-          <!-- <img src="chat (1).png" width="20px" height="30px" alt=""> -->
-
+          <p class="graphicp1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iusto
+            nam ut consectetur cumque! Perferendis quae cupiditate labore
+            maiores ex autem odit incidunt illo eius.<span class="graphics"
+              >Lorem ipsum dolor sit.</span
+            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit,
+            culpa!
+          </p>
+          <button class="btn btn-primary graphicbtn text-start">
+            Submit Now<br />Graphic designer
+          </button>
         </div>
       </div>
-      <div class="temp1p">
+    </div>
+    <div class="temp1icon">
+      <div class="row">
+        <div class="col">
+          <div class="icon">
+            <i class="fa-solid fa-message" style="color: blue"></i>
+            <!-- <img src="chat (1).png" width="20px" height="30px" alt=""> -->
+          </div>
+        </div>
+        <div class="temp1p">
+          <div class="row">
+            <div class="col-10">
+              <p class="temp1pp">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore ipsa est at quam nam exercitationem omnis quisquam
+                impedit! Quae, laudantium?<span class="temp1s">thoughts</span
+                >Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="temp1heading">
+          <div class="row">
+            <div class="col-5">
+              <h3 class="temp1h1">Yasir Aziz</h3>
+              <h3 class="temp1h2">Frontend Developer</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="temp2">
+      <div class="row">
+        <div class="col-4">
+          <div class="temp2img">
+            <img class="tempimg1" src="4.jpg" width="90%" height="450px" />
+            <img
+              class="tempimg2"
+              src="Magnetic-Stationery-Box-1-600x800-1.jpg"
+              width="90%"
+              height="200px"
+            />
+          </div>
+        </div>
+        <div class="col-7">
+          <h1 class="temp2h1">what we do?</h1>
+
+          <div class="temp2cards">
+            <a
+              href="https://www.mythrillfiction.com/the-dark-rider"
+              alt="Mythrill"
+              target="_blank"
+            >
+              <div class="card">
+                <div class="wrapper">
+                  <img
+                    src="https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg"
+                    class="cover-image"
+                  />
+                </div>
+                <img
+                  src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+                  class="title"
+                />
+                <img
+                  src="https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp"
+                  class="character"
+                />
+              </div>
+            </a>
+
+            <a
+              href="https://www.mythrillfiction.com/force-mage"
+              alt="Mythrill"
+              target="_blank"
+            >
+              <div class="card">
+                <div class="wrapper">
+                  <img
+                    src="https://ggayane.github.io/css-experiments/cards/force_mage-cover.jpg"
+                    class="cover-image"
+                  />
+                </div>
+                <img
+                  src="https://ggayane.github.io/css-experiments/cards/force_mage-title.png"
+                  class="title"
+                />
+                <img
+                  src="https://ggayane.github.io/css-experiments/cards/force_mage-character.webp"
+                  class="character"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--values-->
+
+    <div class="temp3">
+      <div class="row">
+        <div class="col">
+          <div class="temp3h">
+            <h1 class="temp3h1"><span class="temp3s">Our </span>Values</h1>
+          </div>
+        </div>
+      </div>
+      <div class="temp31">
         <div class="row">
+          <div class="col-2">
+            <div class="temp3icon">
+              <i class="bi bi-funnel"></i>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-funnel"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"
+                />
+              </svg>
+            </div>
+          </div>
           <div class="col-10">
-            <p class="temp1pp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa est at quam nam
-              exercitationem omnis quisquam impedit! Quae, laudantium?<span class="temp1s">thoughts</span>Lorem ipsum
-              dolor sit amet.
+            <div class="temp3hp">
+              <h5 class="temp3h2">Overview</h5>
+              <p class="temp3p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt adipisci cupiditate, maiores facilis excepturi quia
+                itaque rem error nemo sunt minus natus repudiandae, ea
+                architecto? Accusamus, inventore. Rerum, enim a.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="temp1heading">
+      <div class="temp312">
         <div class="row">
-          <div class="col-5">
-            <h3 class="temp1h1"> Yasir Aziz </h3>
-            <h3 class="temp1h2">Frontend Developer</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="temp2">
-    <div class="row">
-      <div class="col-4">
-        <div class="temp2img">
-          <img class="tempimg1" src="4.jpg" width="90%" height="450px">
-          <img class="tempimg2" src="Magnetic-Stationery-Box-1-600x800-1.jpg" width="90%" height="200px">
-        </div>
-      </div>
-      <div class="col-7">
-        <h1 class="temp2h1">what we do?</h1>
+          <div class="col-2">
+            <div class="temp3icon">
+              <i class="bi bi-funnel"></i>
 
-        <div class="temp2cards">
-          <a href="https://www.mythrillfiction.com/the-dark-rider" alt="Mythrill" target="_blank">
-            <div class="card">
-              <div class="wrapper">
-                <img src="https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg" class="cover-image" />
-              </div>
-              <img src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png" class="title" />
-              <img src="https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp" class="character" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-funnel"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"
+                />
+              </svg>
             </div>
-          </a>
-
-          <a href="https://www.mythrillfiction.com/force-mage" alt="Mythrill" target="_blank">
-            <div class="card">
-              <div class="wrapper">
-                <img src="https://ggayane.github.io/css-experiments/cards/force_mage-cover.jpg" class="cover-image" />
-              </div>
-              <img src="https://ggayane.github.io/css-experiments/cards/force_mage-title.png" class="title" />
-              <img src="https://ggayane.github.io/css-experiments/cards/force_mage-character.webp" class="character" />
+          </div>
+          <div class="col-10">
+            <div class="temp3hp">
+              <h5 class="temp3h2">Overview</h5>
+              <p class="temp3p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt adipisci cupiditate, maiores facilis excepturi quia
+                itaque rem error nemo sunt minus natus repudiandae, ea
+                architecto? Accusamus, inventore. Rerum, enim a.
+              </p>
             </div>
-          </a>
+          </div>
+        </div>
+      </div>
+      <div class="temp312">
+        <div class="row">
+          <div class="col-2">
+            <div class="temp3icon">
+              <i class="bi bi-funnel"></i>
 
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-funnel"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="col-10">
+            <div class="temp3hp">
+              <h5 class="temp3h2">Overview</h5>
+              <p class="temp3p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt adipisci cupiditate, maiores facilis excepturi quia
+                itaque rem error nemo sunt minus natus repudiandae, ea
+                architecto? Accusamus, inventore. Rerum, enim a.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!--values-->
-
-  <div class="temp3">
-    <div class="row">
-      <div class="col">
-        <div class="temp3h">
-          <h1 class="temp3h1"><span class="temp3s">Our </span>Values</h1>
-        </div>
-      </div>
-    </div>
-    <div class="temp31">
+    <div class="temp4">
       <div class="row">
-        <div class="col-2">
-          <div class="temp3icon">
-
-            <i class="bi bi-funnel"></i>
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-funnel"
-              viewBox="0 0 16 16">
-              <path
-                d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z" />
-            </svg>
-          </div>
+        <div class="col-6">
+          <h1 class="temp4h1">
+            <span class="temp4s">Mission</span> & <br />
+            Vision
+          </h1>
         </div>
-        <div class="col-10">
-          <div class="temp3hp">
-            <h5 class="temp3h2">Overview</h5>
-            <p class="temp3p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt adipisci cupiditate,
-              maiores facilis excepturi quia itaque rem error nemo sunt minus natus repudiandae, ea architecto?
-              Accusamus, inventore. Rerum, enim a.</p>
-          </div>
-
+        <div class="col-6">
+          <img
+            src="170829-better-personality-work-overhead-view-se-1210p.webp"
+            height="400vh"
+            width="617vw"
+            alt=""
+          />
         </div>
       </div>
-    </div>
-    <div class="temp312">
       <div class="row">
-        <div class="col-2">
-          <div class="temp3icon">
+        <div class="col-5">
+          <div class="temp411">
+            <button class="btn" id="btn4">Mission</button>
 
-            <i class="bi bi-funnel"></i>
+            <p class="temp4p">
+              <b
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit, pariatur.</b
+              >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              provident amet corporis voluptatem sunt ullam, tempora iure quidem
+              exercitationem ut!
+            </p>
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-funnel"
-              viewBox="0 0 16 16">
-              <path
-                d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z" />
-            </svg>
+            <p class="temp4p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              doloremque, vero voluptates consequatur fuga iure, ipsa quam
+              incidunt voluptatem distinctio eos cumque magnam eligendi amet!
+              Explicabo vitae ad reprehenderit corrupti unde, tenetur deleniti
+              error harum pariatur, officiis accusamus quo sit?
+            </p>
           </div>
         </div>
-        <div class="col-10">
-          <div class="temp3hp">
-            <h5 class="temp3h2">Overview</h5>
-            <p class="temp3p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt adipisci cupiditate,
-              maiores facilis excepturi quia itaque rem error nemo sunt minus natus repudiandae, ea architecto?
-              Accusamus, inventore. Rerum, enim a.</p>
+        <div class="col-4">
+          <div class="temp412">
+            <h6 class="temp4h2">Vision</h6>
+            <p class="temp4p1">
+              <b
+                >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim,
+                fuga.</b
+              >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              labore aspernatur ab dolorum!
+            </p>
+            <p class="temp4p1">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Excepturi similique accusamus saepe maxime esse, earum velit quasi
+              veritatis eveniet id, vero molestias libero, nobis hic!
+            </p>
           </div>
-
         </div>
       </div>
     </div>
-    <div class="temp312">
-      <div class="row">
-        <div class="col-2">
-          <div class="temp3icon">
+<div class="conta1">
+    <div class="conb" style="background-color: blue">
+      <form id="contact" action="" method="post">
+        <h3 id="Signup">Sign Up</h3>
+        <fieldset>
+          <input
+            placeholder="Enter Your name"
+            type="text"
+            tabindex="1"
+            required
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Your Email Address"
+            type="email"
+            tabindex="2"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Your Phone Number (optional)"
+            type="tel"
+            tabindex="3"
+            required
+          />
+        </fieldset>
 
-            <i class="bi bi-funnel"></i>
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-funnel"
-              viewBox="0 0 16 16">
-              <path
-                d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z" />
-            </svg>
-          </div>
-        </div>
-        <div class="col-10">
-          <div class="temp3hp">
-            <h5 class="temp3h2">Overview</h5>
-            <p class="temp3p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt adipisci cupiditate,
-              maiores facilis excepturi quia itaque rem error nemo sunt minus natus repudiandae, ea architecto?
-              Accusamus, inventore. Rerum, enim a.</p>
-          </div>
-        </div>
-      </div>
+        <fieldset>
+          <input
+            placeholder="Enter Your passsword"
+            type="password"
+            tabindex="4"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <textarea
+            placeholder="Type your message here...."
+            tabindex="5"
+            required
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <button
+            name="submit"
+            type="submit"
+            id="contact-submit"
+            data-submit="...Sending"
+          >
+            Submit
+          </button>
+        </fieldset>
+      </form>
     </div>
   </div>
+    <div class="conta">
+    <div class="conb" id="signin">
+      <form id="contact" action="" method="post">
+        <h3 id="Signin">Sign In</h3>
 
+        <fieldset>
+          <input
+            placeholder="Your Email Address"
+            type="email"
+            tabindex="2"
+            required
+          />
+        </fieldset>
 
-  <div class="temp4">
-    <div class="row">
-      <div class="col-6">
-        <h1 class="temp4h1"><span class="temp4s ">Mission</span> & <br>
-          Vision</h1>
-      </div>
-      <div class="col-6">
-        <img src="170829-better-personality-work-overhead-view-se-1210p.webp" height="400vh" width="617vw" alt="">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-5">
-        <div class="temp411">
-        <button class="btn" id="btn4">Mission</button>
-
-        <p class="temp4p"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, pariatur.</b> Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Dolores provident amet corporis voluptatem sunt
-              ullam, tempora iure quidem exercitationem ut!</p>
-
-        <p class="temp4p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque, vero
-          voluptates consequatur fuga iure, ipsa quam incidunt voluptatem distinctio eos cumque magnam eligendi
-          amet! Explicabo vitae ad reprehenderit corrupti unde, tenetur deleniti error harum pariatur, officiis
-          accusamus quo sit?</p>
-      </div>
-    </div>
-      <div class="col-4">
-        <div class="temp412">
-        <h6 class="temp4h2">Vision</h6>
-        <p class="temp4p1"><b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, fuga.</b> Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Delectus labore aspernatur ab dolorum!</p>
-        <p class="temp4p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi similique accusamus
-          saepe maxime esse, earum velit quasi veritatis eveniet id, vero molestias libero, nobis hic!</p>
-      </div>
+        <fieldset>
+          <input
+            placeholder="Enter Your passsword"
+            type="password"
+            tabindex="4"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <button
+            name="submit"
+            class="s1"
+            type="submit"
+            id="contact-submit"
+            data-submit="...Sending"
+          >
+            Login
+          </button>
+          <button
+            name="submit"
+            class="s2"
+            type="submit"
+            id="signup"
+            data-submit="...Sending"
+          >
+            Sign Up
+          </button>
+          <a href="#">Forget password</a>
+        </fieldset>
+      </form>
     </div>
   </div>
-  </div>
-
-</body>
-
+  </body>
 </html>
